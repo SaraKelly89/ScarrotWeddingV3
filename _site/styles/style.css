@@ -1,0 +1,478 @@
+* {
+  box-sizing: border-box;
+  /*border: 1px solid pink;*/
+  margin: 0;
+  padding: 0;
+}
+svg{
+  width:50%;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,h2, h3, h4, h5, h6, p, a {
+  /*border: 1px solid rgb(220,220,220);*/
+}
+
+/*universial styles*/
+header, footer, section{
+  overflow: hidden;
+  max-width: 100%;
+  }
+
+body {
+font-size: 16px;
+background-color: #FAFAFA;
+overflow-x: hidden;
+}
+
+section {
+  padding: 2%;
+}
+.padded-2 {
+  padding: 2%;
+}
+
+.padded-5 {
+  padding: 5%;
+}
+
+.paddedTB{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.margin-3{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.margin-5{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.blackBorder{
+  border: dashed 1px black;
+}
+.largeText {
+  font-size: 19px;}
+
+.largertext{
+  font-size: 1.5em;
+}
+
+.bgColored {
+  background-color: #EFEEEE;
+}
+
+h1 {
+font-family: 'Amatic SC', cursive;
+font-size: 2.6em;
+text-align: center;
+}
+
+h2 {font-family: 'Josefin Slab', sans-serif;
+  font-size: 2.3em;
+  margin: 1%;
+  text-align: center;
+  padding: 1%;
+}
+
+h3 {font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    padding: 1%;}
+
+p {font-family: 'Noticia Text', serif;
+  font-size: 1.3em;
+  font-weight: lighter;}
+
+.seePhotos {
+  text-decoration: none;
+  color:black;
+  margin: 2%;
+}
+
+.seePhotos:hover {
+  color: #888888;
+}
+
+/*-------------hearder section styles----------*/
+
+header a {
+  color: black;
+  font-size: 1.3em;
+  text-decoration: none;
+  transition: 2s;
+  text-align: center;
+  padding: 0.5rem;
+  display:inline-block;
+}
+
+header a:hover {
+  color: #888888;
+  transition: 0.5s;
+}
+
+.NavLeft {
+  text-align: center;
+}
+
+.NavRight {
+  text-align: center;
+}
+svg{
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bottomTriangle {
+  bottom:0;
+}
+
+.bgTriangle {
+  fill: #EFEEEE;
+  opacity:1;
+}
+polygon{
+  opacity: .5;
+}
+
+/*-----Section 1 background image-----*/
+
+.banner {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: auto;
+  background-size: cover;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 35%;
+  position: relative;
+  border-radius: 10px;
+}
+
+/*-----Section 3 The Wedding Date-----*/
+.weddingDate {padding: 1%;
+  margin-left: 5%;
+  margin-right: 5%;}
+
+
+  /*------Section the plan-----*/
+  #thePlan h3{
+    font-size: 1.5em;
+  }
+
+  .thePlan {text-align: center;
+    background-color: white;
+    margin: 3%;
+    padding-left: : 3%;
+    padding-right: : 3%;
+    padding: 3%;
+    padding-bottom: 3%;}
+  .thePlan p{
+    padding-bottom: 2%;
+  }
+
+/*-----Section 2 polaroids-----*/
+.polaroid div {
+  background-color: white;
+}
+
+.polaroid {
+  padding-top: 5%;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-bottom: 10%;
+   margin-top: 0;
+   margin-right: 10%;
+   margin-left: 10%;
+   width: 80%;
+   background-color: white;
+   box-shadow: 0 4px 8px 0
+   rgba(0, 0, 0, 0.2), 0 6px
+   20px 0 rgba(0, 0, 0, 0.19);
+}
+.heart {text-align: center;}
+
+.heart i{font-size: 110px;}
+
+/*-----Section 3 Three Tile Buttons-----*/
+.tileGrey {
+  background-color: #BDC3C7;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.tile {
+  text-decoration: none;
+  background-color: white;
+  border: 3px solid black;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+
+.tile a{text-decoration: none;
+color:black;
+}
+
+.tile a:hover{color: #888888;}
+
+tile i{
+  margin: 3%;
+}
+
+/*------Section 4 Our Story-----*/
+
+#ourStory h3{
+  font-size: 1.5em;
+}
+
+.story {text-align: center;
+  background-color: white;
+  margin: 3%;
+  padding-left: : 3%;
+  padding-right: : 3%;
+  padding: 3%;
+  padding-bottom: 3%;}
+.story p{
+  padding-bottom: 2%;
+}
+
+.aboutStyle p{background-color: white;
+}
+
+
+/*-----Section 5 Love Quote-----*/
+
+.loveQuote {padding: 2%;}
+
+  .loveQuote h2{
+    font-family: Amatic+SC;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .loveQuote i{padding:2%}
+
+
+
+/*-----Section 6 The Wedding-----*/
+#TheWedding p{
+  background-color: white;
+}
+
+/*-----Blog Posts-----*/
+.blogPosts {
+  margin:3%;}
+
+.noDecoration {
+  text-decoration: none;
+  color: black;
+}
+
+.noDecoration:hover{
+  color: #888888;}
+
+.fancy{;
+font-style: italic;}
+
+
+/*-----Section 7 Happily Ever After Party----*/
+#AfterParty p{
+  background-color: white;
+  font-family:'Playfair Display', serif;
+  }
+
+  #AfterParty h3{
+    font-family: 'Noticia Text', serif;
+    font-weight: normal;
+    background-color: white;}
+
+  #AfterParty span{
+  font-weight: bold;
+  font-size: 1em;}
+
+  #AfterParty map{
+    margin: 2%;}
+
+/*-----Section 8 Footer RSVP form-----*/
+
+.rsvpStyle {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  width: 100%;
+  font-size: 1.7em;
+  padding: 30px 30px 15px 30px;
+  border: 5px solid #53687E;
+  }
+
+.rsvpStyle input{
+  background: transparent;
+  border: none;
+  border-bottom: 1px dashed #555;
+  width: 100%;
+  font-style: italic;
+}
+
+.rsvpStyle textarea{
+  background: transparent;
+  border: none;
+  border-bottom: 1px dashed #555;
+  width: 100%;
+  font-style: italic;
+  overflow: hidden;
+  resize: none;
+}
+
+.button button{
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+  border: 1px dashed #555;
+  padding: 8px 10px 8px 10px;
+  border-radius: 5px;
+  margin-top: 3%;
+  background-color: #EFEEEE;
+}
+.button button:hover{
+  background-color:#FAFAFA ;
+}
+
+/*----- soft scroll to top floating button -----*/
+a.top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 45;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #888888;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+a.top-button:hover{
+  background-color: #555;
+}
+
+
+/*-----Burger Menu-----*/
+.burger-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: #f9f9f9;
+    padding:5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    z-index: 99999999;
+}
+.burger-menu a {
+  text-decoration: none;
+  padding: 15px 11px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #2896BA;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  display:block;
+  padding:5px 15px;
+  text-align:center;
+  white-space:nowrap;
+}
+.burger-menu li{
+  list-style:none;
+}
+/* this is where you style the button if you want to add more space between the spans than add padding to this div but make sure you also add it to the top and bottom active classes on there top/bottom or else your cross wont line up*/
+.burger-button {
+  position:fixed;
+  top: 2vh;
+  right: 2vh;
+  z-index: 9999999999;
+  padding: 8px;
+}
+/*this is where you can chand the color of the buttons*/
+.mob-show{
+  display:none;
+}
+.burger-button span{
+  width: 25px;
+  border: 2px solid #2896BA;
+  background-color: black;
+  display: block;
+  border-radius: 22px;
+  transition: 2s;
+}
+.burger-top, .burger-bottom{
+  position: absolute;
+}
+.burger-top{
+  top: 02.5px;
+}
+.burger-bottom{
+  bottom: 02px;
+}
+
+/* target the burger top when the button has the active class and give it a transform: rotateZ(45deg);*/
+.active .burger-top{
+  transform: rotateZ(45deg);
+  top:8px;
+}
+
+/* now do the same for the bottom but with a negitive rotate */
+
+.active .burger-bottom{
+  transform: rotateZ(-45deg);
+  bottom:8px;
+}
+
+/* now press your button and see whats wrong? go back and add a top to the .burger-top on active to push it down and a bottom to the .burger-bottom to push it up */
+
+/* now try and make the middle line disapeare */
+
+.active .burger-middle{
+  opacity:0;
+}
+
+.burger-menu li{list-style:none}
+
+/*Media Quires*/
+@media all and (min-width: 960px){
+
+  body{
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 959px) and (min-width:600px){
+  .mob-show{
+    display:block;
+  }
+  .mob-hide{
+    display:none;
+  }
+  body{
+    font-size: 16px;
+  }
+}
+  @media all and (max-width: 599px){
+    .mob-show{
+      display:block;
+    }
+    .mob-hide{
+      display:none;
+    }
+    body{
+      font-size: 10px;
+    }
+
+  }
+  /* add media quires for text sizing here */
